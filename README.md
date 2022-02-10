@@ -42,7 +42,7 @@ People Counting in Real-Time using live video stream/IP camera in OpenCV.
 ## Initial Setup
 Install virtualenv (you only have to do this once):
 
-    pip install virtualenv
+    sudo pip install virtualenv
 
 Create a virtual environment (you only have to do this once too):
 
@@ -57,11 +57,11 @@ Start your virtual environment (this one you have to run each time you restart y
 ## Running Inference
 - Install all the required Python dependencies:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 - To run inference on a test video file, head into the directory/use the command: 
 ```
-python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
+python3 run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
 ```
 > To run inference on an IP camera:
 - Setup your camera url in 'mylib/config.py':
