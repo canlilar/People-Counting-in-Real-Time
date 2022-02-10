@@ -39,6 +39,21 @@ People Counting in Real-Time using live video stream/IP camera in OpenCV.
 - Once the co-ordinates are obtained by our SSD, the tracker computes the centroid (center) of the box. In other words, the center of an object.
 - Then an unique ID is assigned to every particular object deteced, for tracking over the sequence of frames.
 
+## Initial Setup
+Install virtualenv (you only have to do this once):
+
+    pip install virtualenv
+
+Create a virtual environment (you only have to do this once too):
+
+    virtualenv -p python3 ppl_counter_env
+
+If you do `ls` now, you will see an `/ppl_counter_env` folder created which contains the virtual environment. 
+
+Start your virtual environment (this one you have to run each time you restart your env):
+
+    source ppl_counter_env/bin/activate				       
+
 ## Running Inference
 - Install all the required Python dependencies:
 ```
