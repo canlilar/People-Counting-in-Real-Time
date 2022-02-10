@@ -6,4 +6,4 @@ CMake==3.22.2
 dlib==19.18.0
 opencv-python==4.2.0.32
 scipy==1.4.1
-opencv-python-headless==4.5.5.62
+opencv-python-headless==4.5.2.52
